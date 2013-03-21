@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html lang="hu">
+  <head>
+    <title>Help</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel ="stylesheet" type="text/css" href="../../default.css" title="Style"> 
+  </head>
+  <body>
+    <h1>Introduction<a name="introduction"></a></h1>
+      <p>The <b><font color="#008080">PDFIndexer</font></b> is a pure Java<sup><font size="-2">TM</font></sup> application,
+      which makes <b>document-indexes</b> searching PDF (Printable Document Format) documents.</p>
+    <h1>Usage<a name="usage"></a></h1>
+      <p>With <b><font color="#008080">PDFIndexer</font></b> we can view PDF (Printable Document Format) documents
+      and make document-indexes.</p>
+    <h2>Document viewing<a name="viewing"></a></h2>
+      <h3>Open<a name="open"></a></h3>
+        <p>After the application start there is not opened any document.
+        To view a document we have to open one.
+        We can do that in two ways:
+        <ul>
+          <li>From the menu we choose <a bgcolor="#D8E8F8">File > Open > File...</a>.
+          <li>In the toolbar we click on the <a bgcolor="#D8E8F8">Open</a> button.
+        </ul></p>
+        <p>In the upcomming dialogbox we choose the needed document, an the application will open that.
+        At the left side of the application window will apear the <a href="#navigation-panels">navigation</a> and the
+        <a href="#indexer">indexer</a> panels, at the left side the first page of the document, in the toolbar the
+        <a href="#navigation-buttons">navigation</a> and the <a href="#view">viewing</a> buttons will be enabled.</p>
+        <p><b>Comment:</b> If a document is open and we want to open another document, the application will close automatically
+        the opened document.</p>
+      <h3>Close<a name="close"></a></h3>
+        <p>We can close the opened document choosing <a bgcolor="#D8E8F8">File > Close</a> from the menu.
+      <h3>Save a copy<a name="save"></a></h3>
+        <p>We can make a copy of an opened document:</p>
+        <ul>
+          <li>Choosing <a bgcolor="#D8E8F8">File > Save a copy</a> from the menu.
+          <li>Clicking <a bgcolor="#D8E8F8">Save a copy</a> in the toolbar.
+        </ul>
+        <p>In the upcomming dialogbox we hava to give a file name and press <a bgcolor="#D8E8F8">Save a copy</a>.</p>
+      <h3>Navigation<a name="navigate"></a></h3>
+        <p>The application shows yust one page of the opened document. To view the document, we can use
+        the navigation panels and the navigation buttons.</p>
+        <h4>Navigation panels<a name="navigation-panels"></a></h4>
+          <p>The navigation panels are positioned at the left side of the application, and one contains
+          the <b name="bookmarks">bookmarks</b>, the other the pages.</p>
+          <p>Clicking on the bookmarks (if there are), in the right panel will appear the page with the paragraph
+          pointed by the bookmark.</p>
+          <p>Clicking on the pages, will appear the begining of the chosen page.</p>
+        <h4>Navigation buttons<a name="navigation-buttons"></a></h4>
+            <p>With the navigation buttons from the toolbar we can navigate to the <a bgcolor="#D8E8F8">First page</a>,
+            <a bgcolor="#D8E8F8">Previous page</a>, <a bgcolor="#D8E8F8">Next page</a>,
+            <a bgcolor="#D8E8F8">Last page</a>, or typing a number to the given page.</p>
+            <p>The same actions can be done with the subitems of <a bgcolor="#D8E8F8">View > Go</a> menuitem.</p>
+      <h3>View<a name="view"></a></h3>
+        <p>The view of the document can be changed with the rotation and zooming of the current page view.
+        This can be done with the <a bgcolor="#D8E8F8">Zoom</a> and the <a bgcolor="#D8E8F8">Rotate</a> buttons from the toolbar,
+        as well as with the corresponding menuitems from the <a bgcolor="#D8E8F8">View</a> menu.</p>
+        <p><b>Comment:</b> The percentage of the zoom is not yust choosable, rather it could be given arbitrarily.</p>
+    <h2>Indexer<a name="indexer"></a></h2>
+      <p>To make <b>document-indexes</b> is the main point of the <b><font color="#008080">PDFIndexer</font></b> application.
+      This can be done by clicking on the <a bgcolor="#D8E8F8">Indexer</a> tab in the left-side panel.</p>
+      <h3>Before search<a name="before-search"></a></h3>
+        <p>Before search we have to give the entries an the search conditions.</p>
+        <h4>Entries<a name="entries"></a></h4>
+          <p>The entries can be given by typing in the text-editor located at the bottom of the panel, or by pressing the
+          <a bgcolor="#D8E8F8">Import</a> button and loading an external file. If a special character can't be typed, we can add
+          by pressing the <a bgcolor="#D8E8F8">Insert</a> button.
+          By definition, entry is any separate row in the text-editor: word or expression. Hence, the imported bunch of entries
+          have to conform to this rule. </p>
+        <h4>Search conditions<a name="search-conditions"></a></h4>
+          <p>Search conditions can be:</p>
+          <ul>
+            <li>The case matching.
+            <li>The word matching.
+            <li>The strict character matching. If is not checked, the similar accentuated characters are handled just the same.
+             I.e.: the character <b>û</b> is just the same as the character <b>ű</b>.
+            <li>The regular expression matching.
+            <li>The finding all matches on a page.
+            <li>The search-intervals.
+          </ul>
+          <p>With the search-intervals<a name="intervals"></a> we can split the document in several parts. Also in this way
+          it is possible to give the start-number of paging an to define the look of the index pages: with prefix, with suffix,
+          in roman numerals and in upper or lower case.</p>
+          <p><b>Comment:</b> The page numbering in the document-index restarts from the first page of any given interval.</p>
+          <p>The search can be run pressing the <a bgcolor="#D8E8F8">Start</a> button.</p>
+      <h3>During the search<a name="during-search"></a></h3>
+        <p>During the search we can see the progress of the action, we can stop the search by pressing
+        the <a bgcolor="#D8E8F8">Stop</a> button and, if there are partial results, we can see their location in the right panel
+        by clicking on the page numbers.</p>
+      <h3>After search<a name="after-search"></a></h3>
+        <p>After search (whether the search has completed or was stopped) we can save the resulting document-index with the
+        <a bgcolor="#D8E8F8">Export</a> button, or we can define a new search after pressing the <a bgcolor="#D8E8F8">New</a>
+        button.</p>
+  </body>
+</html>

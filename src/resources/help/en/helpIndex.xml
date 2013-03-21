@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<!DOCTYPE index PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN" "http://java.sun.com/products/javahelp/index_1_0.dtd">
+<index version="2.0">
+  <indexitem text="B" target="">
+    <indexitem text="bookmarks" target="bookmarks"/>
+  </indexitem>
+  <indexitem text="C" target="">
+    <indexitem text="close" target="close"/>
+  </indexitem>
+  <indexitem text="E" target="">
+    <indexitem text="entries" target="entries"/>
+  </indexitem>
+  <indexitem text="I" target="">
+    <indexitem text="indexer" target="indexer"/>
+  </indexitem>
+  <indexitem text="N" target="">
+    <indexitem text="navigate" target="navigate">
+      <indexitem text="panels" target="navigation-panels"/>
+      <indexitem text="buttons" target="navigation-buttons"/>
+    </indexitem>
+  </indexitem>
+  <indexitem text="O" target="">
+    <indexitem text="open" target="open"/>
+  </indexitem>
+  <indexitem text="P" target="">
+    <indexitem text="PDFIndexer" target="introduction"/>
+  </indexitem>
+  <indexitem text="S" target="">
+    <indexitem text="search" target="">
+      <indexitem text="before" target="before-search"/>
+      <indexitem text="conditions" target="search-conditions"/>
+      <indexitem text="intervals" target="intervals"/>
+      <indexitem text="during" target="during-search"/>
+      <indexitem text="after" target="after-search"/>
+    </indexitem>
+  </indexitem>
+  <indexitem text="V" target="">
+    <indexitem text="view" target="view"/>
+  </indexitem>
+</index>
+

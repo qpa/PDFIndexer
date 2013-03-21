@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<!DOCTYPE index PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Index Version 1.0//EN" "http://java.sun.com/products/javahelp/index_1_0.dtd">
+<index version="2.0">
+  <indexitem text="B" target="">
+    <indexitem text="bejegyzések" target="entries"/>
+    <indexitem text="bezárás" target="close"/>
+  </indexitem>
+  <indexitem text="K" target="">
+    <indexitem text="keresés" target="">
+      <indexitem text="előtt" target="before-search"/>
+      <indexitem text="feltételek" target="search-conditions"/>
+      <indexitem text="intervallumok" target="intervals"/>
+      <indexitem text="közben" target="during-search"/>
+      <indexitem text="után" target="after-search"/>
+    </indexitem>
+    <indexitem text="könyvjelzők" target="bookmarks"/>
+  </indexitem>
+  <indexitem text="M" target="">
+    <indexitem text="megnyitás" target="open"/>
+  </indexitem>
+  <indexitem text="N" target="">
+    <indexitem text="navigáció" target="navigate">
+      <indexitem text="panelek" target="navigation-panels"/>
+      <indexitem text="gombok" target="navigation-buttons"/>
+    </indexitem>
+    <indexitem text="nézet" target="view"/>
+  </indexitem>
+  <indexitem text="P" target="">
+    <indexitem text="PDFIndexer" target="pdfindexer"/>
+  </indexitem>
+  <indexitem text="T" target="">
+    <indexitem text="tárgymutató" target="indexer"/>
+  </indexitem>
+</index>
+

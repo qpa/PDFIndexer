@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 1.0//EN" "http://java.sun.com/products/javahelp/map_1_0.dtd">
+<map version="2.0">
+  <mapID target="icon.help" url="../../images/book_closed.gif" />
+  <mapID target="icon.back" url="../../images/previous.gif" />
+  <mapID target="icon.forward" url="../../images/next.gif" />
+  <mapID target="icon.home" url="../../images/home.gif" />
+  <mapID target="icon.book.open" url="../../images/book_open.gif" />
+  <mapID target="icon.book.closed" url="../../images/book_closed.gif" />
+  <mapID target="icon.book.page" url="../../images/page.gif" />
+
+  <mapID target="greeting" url="topics/greeting.html" />
+  <mapID target="introduction" url="topics/help.html" />
+  <mapID target="pdfindexer" url="topics/help.html#introduction" />
+  <mapID target="usage" url="topics/help.html#usage" />
+  <mapID target="viewing" url="topics/help.html#viewing" />
+  <mapID target="open" url="topics/help.html#open" />
+  <mapID target="url" url="topics/help.html#url" />
+  <mapID target="close" url="topics/help.html#close" />
+  <mapID target="save" url="topics/help.html#save" />
+  <mapID target="navigate" url="topics/help.html#navigate" />
+  <mapID target="navigation-panels" url="topics/help.html#navigation-panels" />
+  <mapID target="bookmarks" url="topics/help.html#bookmarks" />
+  <mapID target="navigation-buttons" url="topics/help.html#navigation-buttons" />
+  <mapID target="view" url="topics/help.html#view" />
+  <mapID target="indexer" url="topics/help.html#indexer" />
+  <mapID target="before-search" url="topics/help.html#before-search" />
+  <mapID target="entries" url="topics/help.html#entries" />
+  <mapID target="search-conditions" url="topics/help.html#search-conditions" />
+  <mapID target="intervals" url="topics/help.html#intervals" />
+  <mapID target="during-search" url="topics/help.html#during-search" />
+  <mapID target="after-search" url="topics/help.html#after-search" />
+</map>

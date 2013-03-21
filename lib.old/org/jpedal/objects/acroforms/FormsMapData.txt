@@ -1,0 +1,34 @@
+/**
+ * use .get("[NAME ON LEFT BELOW]") returns after = #
+ */
+
+/** Form Data Map */
+normalCaption = String;
+rolloverCaption = String;
+downCaption = String;
+backgroundColor = Color;
+borderColor = Color;
+rotation = String;//should be multipul of 90
+textColor = Color;
+textFont = Font;
+maxTextLen = String;//should be an integer
+listOfItems = String[];/*Opt array of items for choice field */
+characteristic = Integer;//shows the fields annotation
+/* 1 = invisible,2 = hidden,3 = print,4 = nozoom,5= norotate,6= noview,7 = read only (ignored by wiget)*/
+selectedChildOnState = String;/*the to be selected childs on state of radioButton */
+currentState = String;/*selected Appearance State of checkBox */
+type = boolean[];/*FT field type e.g button */
+flags = boolean[];/*Ff field component e.g editable combobox */
+textValue = String;//text contents
+selectedItem = String;//currently selected choice item
+border = Border;
+rect = Rectangle;//rectangle of field on page
+defaultState = String;//default appearance stream to use if more than on state
+normalAppOn = BufferedImage;//the normal selected icon
+normalAppOff = BufferedImage;//the normal unselected icon
+downAppOn = BufferedImage;//the down selected Icon
+downAppOff = BufferedImage;//the down unselected Icon
+normalApp = BufferedImage;//the normal icon selected and unselected
+downApp = BufferedImage;//the down icon selected and unselected
+appearances = Boolean;//if there are appearances for this field
+defaultValue = String;//the default value to which the field is reset to

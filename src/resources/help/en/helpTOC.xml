@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN" "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+<toc version="2.0" categoryopenimage="icon.book.open" categoryclosedimage="icon.book.closed" topicimage="icon.book.page">
+  <tocitem text="Introduction" target="introduction"/>
+  <tocitem text="Usage" target="usage">
+    <tocitem text="Document viewing" target="viewing">
+      <tocitem text="Open" target="open">
+        <tocitem text="URL" target="url"/>
+      </tocitem>
+      <tocitem text="Close" target="close"/>
+      <tocitem text="Save a copy" target="save"/>
+      <tocitem text="Navigation" target="navigate">
+        <tocitem text="Navigation panels" target="navigation-panels"/>
+        <tocitem text="Navigation buttons" target="navigation-buttons"/>
+      </tocitem>
+      <tocitem text="View" target="view"/>
+    </tocitem>
+    <tocitem text="Indexer" target="indexer">
+      <tocitem text="Before search" target="before-search">
+        <tocitem text="Entries" target="entries"/>
+        <tocitem text="Search conditions" target="search-conditions"/>
+      </tocitem>
+      <tocitem text="During the search" target="during-search"/>
+      <tocitem text="After search" target="after-search"/>
+    </tocitem>
+  </tocitem>
+</toc>

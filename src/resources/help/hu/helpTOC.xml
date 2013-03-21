@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 1.0//EN" "http://java.sun.com/products/javahelp/toc_1_0.dtd">
+<toc version="2.0" categoryopenimage="icon.book.open" categoryclosedimage="icon.book.closed" topicimage="icon.book.page">
+  <tocitem text="Bevezetés" target="introduction"/>
+  <tocitem text="Használat" target="usage">
+    <tocitem text="Dokumentum nézegetése" target="viewing">
+      <tocitem text="Megnyitás" target="open">
+        <tocitem text="URL" target="url"/>
+      </tocitem>
+      <tocitem text="Bezárás" target="close"/>
+      <tocitem text="Másolat mentése" target="save"/>
+      <tocitem text="Navigáció" target="navigate">
+        <tocitem text="Navigációs panelek" target="navigation-panels"/>
+        <tocitem text="Navigációs gombok" target="navigation-buttons"/>
+      </tocitem>
+      <tocitem text="Nézet" target="view"/>
+    </tocitem>
+    <tocitem text="Tárgymutató készítése" target="indexer">
+      <tocitem text="Keresés előtt" target="before-search">
+        <tocitem text="Bejegyzések" target="entries"/>
+        <tocitem text="Keresési feltételek" target="search-conditions"/>
+      </tocitem>
+      <tocitem text="Keresés közben" target="during-search"/>
+      <tocitem text="Keresés után" target="after-search"/>
+    </tocitem>
+  </tocitem>
+</toc>

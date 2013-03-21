@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html lang="hu">
+  <head>
+    <title>Súgó</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel ="stylesheet" type="text/css" href="../../default.css" title="Style"> 
+  </head>
+  <body>
+    <h1>Bevezetés<a name="introduction"></a></h1>
+      <p>A <b><font color="#008080">PDFIndexer</font></b> egy teljes egészében Java<sup><font size="-2">TM</font></sup> alkalmazás,
+      amely tágymutatót készít PDF dokumentumban való kereséssel.</p>
+    <h1>Használat<a name="usage"></a></h1>
+      <p>A <b><font color="#008080">PDFIndexer</font></b>-rel PDF (Printable Document Format) dokumentumokat nézegethetünk
+      és tárgymutatót készíthetünk a segítségével.</p>
+    <h2>Dokumentum nézegetése<a name="viewing"></a></h2>
+      <h3>Megnyitás<a name="open"></a></h3>
+        <p>Az alkalmazás elindítása után semmilyen dokumentum nincs nyitva.
+        Ahhoz, hogy egy dokumentumot nézegethessünk, meg kell nyitani egyet.
+        Ezt kétféle képpen tehetjük meg:
+        <ul>
+          <li>A menüsorból kiválasztjuk a <a bgcolor="#D8E8F8">Fájl > Megnyitás > Fájl...</a> menüpontot.
+          <li>Az eszközsorban a <a bgcolor="#D8E8F8">Megnyitás</a> gombra kattintunk.
+        </ul></p>
+        <p>A megjelenő párbeszédablakban kiválasztjuk az általunk kivánt dokumentumot és az alkalmazás betölti azt.
+        Az alkamazásablak jobb oldalán megjelennek a <a href="#navigation-panels">navigációs</a> és <a href="#indexer">tárgymutató készítő</a> panelek,
+        bal oldalon a dokumentum első oldala, az eszközsorban pedig használhatóvá válnak a <a href="#navigation-buttons">navigációs</a> és
+        a <a href="#view">nézet</a> gombok.</p>
+        <p><b>Megjegyzés:</b> Ha egy dokumentum már meg van nyitva és ezek után akarunk egy másik dokumentumot megnyitni,
+        az alkalmazás előbb automatikusan bezárja a már nyitott dokumentumot.</p>
+      <h3>Bezárás<a name="close"></a></h3>
+        <p>A dokumentum bezárását meg tehetjük, ha a menüsorból kiválasztjuk a <a bgcolor="#D8E8F8">Fájl > Bezárás</a> menüpontot.</p>
+      <h3>Másolat mentése<a name="save"></a></h3>
+        <p>Készithetünk másolatot egy megnyitott dokumentumról, ha:</p>
+        <ul>
+          <li>A menüsorból kiválasztjuk a <a bgcolor="#D8E8F8">Fájl > Másolat mentése</a> menüpontot.
+          <li>Az eszközsorban a <a bgcolor="#D8E8F8">Másolat mentése</a> gombra kattintunk.
+        </ul>
+        <p>A megjelenő párbeszédablakban megadjuk a másolat nevét és megnyomjuk a <a bgcolor="#D8E8F8">Másolat mentése</a> gombot.</p>
+      <h3>Navigáció<a name="navigate"></a></h3>
+        <p>Az alkalmazás a megnyitott dokumentumnak egyszerre csak egy oldalát mutatja. Ahhoz, hogy megtekinthessük a dokumentumot,
+        használhatjuk  a navigációs paneleket, valamint a navigációs gombokat.</p>
+        <h4>Navigációs panelek<a name="navigation-panels"></a></h4>
+          <p>A navigációs panelek az alkalmazás jobb oldalán foglalnak helyet és az egyik a <b name="bookmarks">könyvjelzőket</b> tartalmazza,
+          míg a másik az oldalakat.</p>
+          <p>A könyvjelzőkre kattintva (ha vannak), a jobboldali panelben megjelenik a könyvjelző által mutatott oldal és bekezdés.</p>
+          <p>Az oldalakra kattinva, megjelenik a kívánt oldal eleje.</p>
+        <h4>Navigációs gombok<a name="navigation-buttons"></a></h4>
+            <p>A navigácós gombokkal, amelyek az eszközsorban találhatók, ugorhatunk az <a bgcolor="#D8E8F8">Első oldal</a>-ra,
+            az <a bgcolor="#D8E8F8">Előző oldal</a>-ra, a <a bgcolor="#D8E8F8">Kővetkező oldal</a>-ra,
+            az <a bgcolor="#D8E8F8">Utolsó oldal</a>-ra, valamint egy szám beírásával a megadott oldalra.</p>
+            <p>Ugyanezt megtehetjük a <a bgcolor="#D8E8F8">Nézet > Ugrás</a> menüpont almenüpontjaival.</p>
+      <h3>Nézet<a name="view"></a></h3>
+        <p>A dokumentum nézete változtatható az oldal nézetének elforgatásával és nagyításával illetve kicsinyítésével.
+        Ez megtehető az eszközsorban található <a bgcolor="#D8E8F8">Nagyítás</a>, illetve <a bgcolor="#D8E8F8">Forgatás</a>
+        gombokkal, valamint a <a bgcolor="#D8E8F8">Nézet</a> menü megfelelő menüpontjaival.</p>
+        <p><b>Megjegyzés:</b> A nagyítás, illetve kicsinyítés mérete nem csak választható, hanem tetszőlegesen is megadható.</p>
+    <h2>Tárgymutató készítése<a name="indexer"></a></h2>
+      <p>A tágymutató készítő a <b><font color="#008080">PDFIndexer</font></b> alkalmazás fő érdeme. Ezt elérhetjük az alkalmazás
+      bal oldalán levő panaleben az <a bgcolor="#D8E8F8">Indexelő</a> fűlre kattinva.</p>
+      <h3>Keresés előtt<a name="before-search"></a></h3>
+        <p>Keresés előtt meg kell adnunk a bejegyzéseket és a kerés feltételeit.</p>
+        <h4>Bejegyzések<a name="entries"></a></h4>
+          <p>A bejegyzések a panel alján található szövegszerkesztő ablakban adhatók meg begépeléssel, vagy
+          az <a bgcolor="#D8E8F8">Importálás</a> gomb megnyomásával egy külső fájlból. Ha egy speciális betűt nem tudunk begépelni,
+          megadhatjuk a <a bgcolor="#D8E8F8">Beszúrás</a> gomb segítségével.
+          Bejegyzésnek számít minden egyes külön sor: szó vagy kifejezés. Éppen ezért, az importált begyzéshalmazoknak is ennek a
+          feltételnek kell eleget tenniük.</p>
+        <h4>Keresési feltételek<a name="search-conditions"></a></h4>
+          <p>Keresési feltételekként megadhatók:</p>
+          <ul>
+            <li>A kis- és nagybetűk megkülönböztetése.
+            <li>A bejegyzések egy szóként való kezelése.
+            <li>A bejegyzések ékezetes betűinek pontos értelmezése. Ha ez nincs bejelölve, a hasonló ékezetes betűk ugyanannak
+                vannak kezelve. Pl.: az <b>û</b> betű ugyanaz mint az <b>ű</b> betű.
+            <li>A bejegyzések reguláris kifejezéskénti értelmezése.
+            <li>Az összes előfordulás megkeresése egy oldalon.
+            <li>A keresési intervallumok.
+          </ul>
+          <p>A keresési intervallumok<a name="intervals"></a> által fel lehet bontani egy dokumentumot több részre
+          és ezáltal meg lehet azt is adni, hogy az elkészült tárgymutatóban az indexoldalak milyen oldalszámozással kezdődjenek
+          valamint, hogy milyen formátumban jelenjenek meg: előtaggal, utótaggal, római számmal és ez utóbbi nagy betűvel vagy sem.</p>
+          <p><b>Megjegyzés:</b> Természetesem, minden megadott intervalum első oldalától kezdődik az oldalszámozás az elkészült
+          tárgymutatóban.</p>
+          <p>A keresést az <a bgcolor="#D8E8F8">Elindítás</a> gomb segítségével futtathatjuk.</p>
+      <h3>Keresés közben<a name="during-search"></a></h3>
+        <p>Keresés közben láthatjuk a művelet előrehaladását, leállíthatjuk a keresést a <a bgcolor="#D8E8F8">Leállítás</a> gombbal
+        illetve, ha már vannak részeredmények, az oldalszámozásra kattintva, megnézhetjük az előfordulási helyüket
+        a jobboldali panelban.</p>
+      <h3>Keresés után<a name="after-search"></a></h3>
+        <p>Keresés után (akár teljesen végigfutott a keresés, akár le lett állítva) elmenthetjük az elkészült tárgymutatót az
+        <a bgcolor="#D8E8F8">Exportálás</a> gombbal, illetve elkezdhetünk definiálni egy új keresést
+        az <a bgcolor="#D8E8F8">Új</a> gomb megnyomása után.</p>
+  </body>
+</html>
